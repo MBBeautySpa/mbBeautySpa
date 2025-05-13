@@ -1,7 +1,7 @@
 import { SidebarProvider, SidebarTrigger } from '@/components/ui/sidebar';
 import { useIsMobile } from '@/hooks/use-mobile.ts';
-import AppNavbar from './AppNavbar.tsx';
-import AppSidebar from './AppSidebar.tsx';
+import AppNavbar from '@/components/NavBar/AppNavbar.tsx';
+import AppSidebar from '@/components/NavBar/AppSidebar.tsx';
 const Nav = ({ children }: { children: React.ReactNode }) => {
   const isMobile = useIsMobile();
   if (isMobile) {
@@ -21,8 +21,7 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
       <AppNavbar />
       {children}
     </div>
-
-);
+  );
 }
 
 export default Nav

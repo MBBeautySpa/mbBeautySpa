@@ -7,7 +7,7 @@ import {
 
 import { Link } from 'react-router';
 
-import items from './Items';
+import items from '@/components/NavBar/Items.ts';
 
 const NavigationBar = () => {
   return (

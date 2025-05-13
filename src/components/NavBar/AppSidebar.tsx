@@ -11,8 +11,8 @@ import {
   SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { Link } from 'react-router';
-// Menu items.
-import items from './Items';
+
+import items from '@/components/NavBar/Items.ts';
 
 const AppSidebar = () => {
   return (

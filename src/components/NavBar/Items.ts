@@ -1,25 +1,25 @@
-import { Home, Book, Store, Images } from 'lucide-react';
-
+import { Home, Store, Images } from 'lucide-react';
+import HomePage from '@/pages/Home/Home.tsx';
+import ServicesPage from '@/pages/Services/Services.tsx';
+import GalleryPage from '@/pages/Gallery/Gallery.tsx';
 const items = [
   {
     title: 'Home',
     url: '/',
     icon: Home,
-  },
-  {
-    title: 'About',
-    url: '/about',
-    icon: Book
+    element: HomePage
   },
   {
     title: 'Services',
     url: '/services',
-    icon: Store
+    icon: Store,
+    element: ServicesPage
   },
   {
     title: 'Gallery',
     url: '/gallery',
-    icon: Images
+    icon: Images,
+    element: GalleryPage
   },
 ]
 
