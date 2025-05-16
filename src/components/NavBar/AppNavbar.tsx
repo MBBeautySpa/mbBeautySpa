@@ -11,7 +11,7 @@ import items from '@/components/NavBar/Items.ts';
 
 const NavigationBar = () => {
   return (
-    <NavigationMenu className="bg-pink-400 text-white min-w-full justify-items-center">
+    <NavigationMenu className="bg-pink-400 text-white min-w-full justify-items-center z-10 ">
       <NavigationMenuList>
         {items.map((item) => (
           <NavigationMenuItem key={item.title}>

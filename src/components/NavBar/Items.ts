@@ -4,19 +4,19 @@ import ServicesPage from '@/pages/Services/Services.tsx';
 import GalleryPage from '@/pages/Gallery/Gallery.tsx';
 const items = [
   {
-    title: 'Home',
+    title: 'MB Beauty Spa',
     url: '/',
     icon: Home,
     element: HomePage
   },
   {
-    title: 'Services',
+    title: 'Servicios',
     url: '/services',
     icon: Store,
     element: ServicesPage
   },
   {
-    title: 'Gallery',
+    title: 'Galería',
     url: '/gallery',
     icon: Images,
     element: GalleryPage
