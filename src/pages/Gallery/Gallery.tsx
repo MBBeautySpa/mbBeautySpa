@@ -17,9 +17,13 @@ const Gallery = () => {
             <CarouselItem key={index}>
               <div className="p-1">
                 <Card className="bg-pink-50 h-full">
-                  <CardContent className="flex aspect-square items-center justify-center p-6 max-h-3/4 w-auto">
-                    <img src={img} alt={index.toString()}/>
-                  </CardContent>
+                    <CardContent className="flex aspect-square items-center justify-center p-6 max-h-3/4 w-auto overflow-hidden">
+                    <img
+                      src={img}
+                      alt={index.toString()}
+                      className="object-contain max-h-full max-w-full"
+                    />
+                    </CardContent>
                 </Card>
               </div>
             </CarouselItem>
