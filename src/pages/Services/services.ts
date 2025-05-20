@@ -1,49 +1,32 @@
-import background from '@/assets/background.jpeg';
-
+import depiliacion from '@/assets/services/Depilacion.jpeg';
+import facial from '@/assets/services/Facial.jpeg';
+import unas from '@/assets/services/UnasEnGel.jpeg';
+import pedicura from '@/assets/services/Pedicura.jpeg';
+import diseno from '@/assets/services/DisenoEnHena.jpeg';
 export default [
   {
-  name: "Massage Therapy",
-  image: background,
-  alt: "Massage",
+  name: "Depilación",
+  image: depiliacion,
+  alt: "Depilación",
   },
   {
-  name: "Facial Treatments",
-  image: background,
+  name: "Facial",
+  image: facial,
   alt: "Facial",
   },
   {
-  name: "Manicure & Pedicure",
-  image: background,
-  alt: "Manicure",
+  name: "Uñas en gel y acrilicas",
+  image: unas,
+  alt: "Uñas",
   },
   {
-  name: "Massage Therapy",
-  image: background,
-  alt: "Massage",
+  name: "Pedicura",
+  image: pedicura,
+  alt: "Pedicura",
   },
   {
-  name: "Facial Treatments",
-  image: background,
-  alt: "Facial",
-  },
-  {
-  name: "Manicure & Pedicure",
-  image: background,
-  alt: "Manicure",
-  },
-  {
-  name: "Massage Therapy",
-  image: background,
-  alt: "Massage",
-  },
-  {
-  name: "Facial Treatments",
-  image: background,
-  alt: "Facial",
-  },
-  {
-  name: "Manicure & Pedicure",
-  image: background,
-  alt: "Manicure",
+  name: "Diseño en Hena",
+  image: diseno,
+  alt: "Diseño en Hena",
   },
 ]

@@ -1,11 +1,15 @@
 import { Phone, Mail, MapPin } from 'lucide-react';
 import background from '@/assets/background.jpeg';
+import logo from '@/assets/logo.png'
 const Home = () => {
   return (
-    <div className="items-center">
+    <div className="items-center overflow-y-auto">
       <img src={background} alt="Background" className="w-full h-50" />
-      <div className="flex flex-col px-10 mt-5 md-5 bg-pink-200 rounded-lg shadow-lg max-w-xl overflow-y-auto overflow-x-auto">
-        <h1 className="text-4xl font-bold text-pink-600"> MB Beauty Spa</h1>
+      <div className="flex flex-col px-10 py-3 mt-5 md-5 bg-pink-200 rounded-lg shadow-lg max-w-xl overflow-y-auto overflow-x-auto">
+        <div className="flex items-center gap-4">
+          <h1 className="text-4xl font-bold text-pink-600 great-vibes-regular">MB Beauty Spa</h1>
+          <img src={logo} alt="logo" className="h-16 w-auto" />
+        </div>
         <div className="mt-4 text-lg text-gray-700">
           <p className="">
             ¡Bienvenida a MB Beauty Spa! Nos especializamos en una variedad de servicios personalizados de belleza y bienestar diseñados para ayudarte a lucir y sentirte bella. Ofrecemos servicios de:
