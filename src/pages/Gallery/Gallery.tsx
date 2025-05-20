@@ -1,4 +1,3 @@
-import * as React from "react"
 import image from './gallery.ts'
 import { Card, CardContent } from "@/components/ui/card"
 import {
