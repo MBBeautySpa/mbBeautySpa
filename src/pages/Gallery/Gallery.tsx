@@ -16,8 +16,8 @@ const Gallery = () => {
           {image.map((img, index) => (
             <CarouselItem key={index}>
               <div className="p-1">
-                <Card className="bg-pink-50">
-                  <CardContent className="flex aspect-square items-center justify-center p-6">
+                <Card className="bg-pink-50 h-full">
+                  <CardContent className="flex aspect-square items-center justify-center p-6 max-h-3/4 w-auto">
                     <img src={img} alt={index.toString()}/>
                   </CardContent>
                 </Card>

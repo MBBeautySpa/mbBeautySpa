@@ -24,7 +24,6 @@ import img22 from '@/assets/gallery/22.jpeg';
 import img23 from '@/assets/gallery/23.jpeg';
 import img24 from '@/assets/gallery/24.jpeg';
 import img25 from '@/assets/gallery/25.jpeg';
-import img26 from '@/assets/gallery/26.jpeg';
 
 const images: string[] = [
   img0,
@@ -53,7 +52,6 @@ const images: string[] = [
   img23,
   img24,
   img25,
-  img26,
 ];
 
 export default images;
