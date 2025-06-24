@@ -20,7 +20,7 @@ const Nav = ({ children }: { children: React.ReactNode }) => {
   );
   }
   return (
-    <div className="relative">
+    <div className="relative min-h-screen min-w-screen">
       <AppNavbar />
       <div className="relative z-10">
         {children}

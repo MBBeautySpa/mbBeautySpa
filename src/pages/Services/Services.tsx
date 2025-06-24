@@ -2,7 +2,7 @@ import services from './services.ts';
 import { Card, CardContent } from "@/components/ui/card"
 const Services = () => {
     return (
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-5">
       {services.map((service, idx) => (
         <Card key={idx} className="flex flex-col items-center p-6 bg-pink-50">
         <img
